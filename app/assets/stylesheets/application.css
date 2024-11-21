@@ -1,0 +1,110 @@
+/* Global Button Styles */
+button {
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+  }
+  
+  /* Primary Button (for main actions like submit, save) */
+  button.primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  button.primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  button.primary:active {
+    background-color: #004085;
+  }
+  
+  button.primary:disabled {
+    background-color: #b8daff;
+    cursor: not-allowed;
+  }
+  
+  /* Secondary Button (for cancel, go-back actions) */
+  button.secondary {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+  }
+  
+  button.secondary:hover {
+    background-color: #5a6268;
+    transform: scale(1.05);
+  }
+  
+  button.secondary:active {
+    background-color: #343a40;
+  }
+  
+  button.secondary:disabled {
+    background-color: #e2e6ea;
+    cursor: not-allowed;
+  }
+  
+  /* Tertiary Button (for info, view actions) */
+  button.tertiary {
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+  }
+  
+  button.tertiary:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  button.tertiary:active {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  button.tertiary:disabled {
+    color: #6c757d;
+    border-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  /* Button Descriptions */
+  button + .description {
+    font-size: 14px;
+    color: #6c757d;
+    margin-top: 8px;
+  }
+  /* app/assets/stylesheets/application.scss */
+body {
+    background-color: #060606; /* Replace with any color code you want */
+  }
+  
+  p {
+    color: #ff5733; /* Orange color */
+  }
+  
+  /* Change color of all h1 elements */
+  h1 {
+    color: #ffffff; /* Green color */
+  }
+  
+  /* Change color of elements with a specific class */
+  .my-text {
+    color: #1e90ff; /* Dodger blue */
+  }
+  
+  /* Change color of an element with a specific ID */
+  #special-text {
+    color: #8a2be2; /* Blue violet */
+  }
+  
